@@ -4,8 +4,8 @@
     
 <?php
 
-    $my_file = fopen("sample.txt","r");
-    echo fread($my_file, filesize("sample.txt"));
+    $my_file = fopen("sample.txt","w");
+    fwrite($my_file,"hello world");
     fclose($my_file);
 
     if($my_file){
