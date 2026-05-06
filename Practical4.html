@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select id="items">
+        <option>apple</option>
+        <option>mango</option>
+        <option>graps</option>
+        <option>banana</option>
+    </select>
+    <br>
+    <br>
+    <button onclick="removeItems()">Click to remove items</button>
+    <script>
+        const removeItems = ()=>{
+            var dropdown = document.getElementById("items")
+            dropdown.remove(dropdown.selectedIndex)
+        }
+    </script>
+</body>
+</html>
