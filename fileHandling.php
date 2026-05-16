@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <body>
-    
+
 <?php
 
     $my_file = fopen("sample.txt","w");

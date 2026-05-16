@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function outer(){
+            console.log("this is outer function")
+            function inner(){
+                console.log("this is inner function");
+            }
+            inner()
+        }
+        outer()
+    </script>
+</body>
+</html>
